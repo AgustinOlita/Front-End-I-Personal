@@ -41,12 +41,14 @@
 /* Section Batman 01 */
 
 .batmansegment-container-01 {
+    background-color: #F3F3F3;
     width: 300px;
     height: 529px;
     position: relative;
     left: 70%;
     top: 150px;
     border-radius: 5%;
+    border: solid 1px black;
 }
 
 .background-batman01 {
@@ -62,5 +64,20 @@
     border-radius: 50%;
     position: relative;
     bottom: 12%;
-    left: 100px;
+    left: 90px;
 }
+
+h2 {
+    text-size: 30px;
+    text-align: center;
+}
+
+.title-batman {
+    width: 122px;
+    height: 35px;
+    position: relative;
+    bottom: 25px;
+    left: 90px;
+}
+
+/* Footer */
