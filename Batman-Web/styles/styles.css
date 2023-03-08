@@ -23,11 +23,14 @@
 }
 
 /* Body */
+h2 {
+    font-size: 30px;
+}
 
 .top-body-container {
     background-color: #00669F;
     height: 101px;
-    width: 1024;
+    
 }
 
 .top-body-title {
@@ -38,15 +41,24 @@
     left: 1%;
 }
 
-/* Section Batman 01 */
+/* Cards container */
+
+.cards-container {
+    width: 1100px;
+    height: 600px;
+    margin-top: 150px;
+    margin-left: 350px;
+    position: fixed;
+}
+
+/* Batman Card right-position */
 
 .batmansegment-container-01 {
     background-color: #F3F3F3;
     width: 300px;
     height: 529px;
-    position: relative;
+    position: absolute;
     left: 70%;
-    top: 150px;
     border-radius: 5%;
     border: solid 1px black;
 }
@@ -55,6 +67,12 @@
     background-image: url(../img/background-batman-right.png);
     width: 300px;
     height: 193px;
+}
+
+.heart-vector-01 {
+    position: relative;
+    top: 10%;
+    left: 10%;
 }
 
 .avatar-batman {
@@ -67,17 +85,91 @@
     left: 90px;
 }
 
-h2 {
-    text-size: 30px;
-    text-align: center;
-}
+
 
 .title-batman {
     width: 122px;
     height: 35px;
     position: relative;
-    bottom: 25px;
+    bottom: 35px;
     left: 90px;
+}
+
+.div-text-card {
+    font-size: 16px;
+    text-align: left;
+    width: 267px;
+    height: 113px;
+    position: relative;
+    left: 5%;
+    bottom: 5%;
+}
+
+.ver-mas-container {
+    background-color: #00669F;
+    width: 128px;
+    height: 48px;
+    position: relative;
+    left: 90px;
+    text-align: center;
+}
+
+.ver-mas-container > span {
+    color: #F3F3F3;
+    font-size: 15px;
+    position: relative;
+    top: 25%;
+}
+
+/* Harley Quinn Card */
+
+.hqsegment-container-02 {
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 529px;
+    position: relative;
+    left: 36%;
+    border-radius: 5%;
+    border: solid 1px black;
+}
+
+.background-hq02 {
+    background-image: url(../img/background-Hq-center.png);
+    width: 300px;
+    height: 193px;
+}
+
+.avatar-hq {
+    background-image: url(../img/Hq-avatar.png);
+    width: 122px;
+    height: 120px;
+    border-radius: 50%; 
+    position: relative;
+    bottom: 12%;
+    left: 90px;
+}
+
+.title-hq {
+    width: 171px;
+    height: 35px;
+    position: relative;
+    bottom: 35px;
+    left: 65px;
+}
+
+
+
+/* Batman Card left-position */
+
+.batmansegment-container-02 {
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 529px;
+    position: relative;
+    left: 2%;
+    bottom: 530px;
+    border-radius: 5%;
+    border: solid 1px black;
 }
 
 /* Footer */
